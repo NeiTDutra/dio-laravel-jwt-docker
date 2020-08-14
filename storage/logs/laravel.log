@@ -1,0 +1,17 @@
+[2020-08-13 22:16:25] local.ERROR: Command "vendor:publiish" is not defined.
+
+Did you mean one of these?
+    stub:publish
+    vendor:publish {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"vendor:publiish\" is not defined.
+
+Did you mean one of these?
+    stub:publish
+    vendor:publish at /home/nei/Documentos/laravel-project/project/vendor/symfony/console/Application.php:644)
+[stacktrace]
+#0 /home/nei/Documentos/laravel-project/project/vendor/symfony/console/Application.php(228): Symfony\\Component\\Console\\Application->find()
+#1 /home/nei/Documentos/laravel-project/project/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/nei/Documentos/laravel-project/project/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#3 /home/nei/Documentos/laravel-project/project/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /home/nei/Documentos/laravel-project/project/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
